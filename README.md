@@ -22,6 +22,7 @@ Antes de começar, certifique-se de ter o Node.js e npm e yarn instalados em sua
 2. Navegue até o diretório do projeto:
 
     ```sh
+    cd wallpaper-interativo/
     cd wallpaper-interativo/Project
     ```
 
