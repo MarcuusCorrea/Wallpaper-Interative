@@ -90,6 +90,12 @@ wallpaper-interativo
  - ├───index.tsx
  - ├───index.css
 
+## Navegação e usabilidade
+
+![image](https://github.com/MarcuusCorrea/Wallpaper-Interative/assets/96303668/68dacf2b-d291-45fe-aa24-499b7589d302)
+
+ - você poderá navegar pelo menu utilizando os botões e realizar o download das imagens.
+
 
 ## Componentes Principais
 
