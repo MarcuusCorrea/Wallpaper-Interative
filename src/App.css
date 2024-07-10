@@ -1,5 +1,16 @@
 .App {
-  text-align: center;
+  margin:0px;
+  padding: 0px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: #111111;
+  color: #d1d1d1;
+  
 }
 
 .App-logo {
@@ -35,4 +46,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Estilo geral da barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Cor do fundo */
+  border-radius: 50px; /* Bordas arredondadas */
+}
+
+/* Polegar da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background: #009554; /* Cor do polegar */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Polegar da barra de rolagem ao passar o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #006e3e; /* Cor do polegar ao passar o mouse */
+}
+
+/* Adicional: estilo da barra de rolagem horizontal */
+::-webkit-scrollbar-horizontal {
+  height: 12px; /* Altura da barra de rolagem horizontal */
+}
+
+/* Polegar da barra de rolagem horizontal */
+::-webkit-scrollbar-thumb-horizontal {
+  background: #888; /* Cor do polegar horizontal */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Polegar da barra de rolagem horizontal ao passar o mouse */
+::-webkit-scrollbar-thumb-horizontal:hover {
+  background: #555; /* Cor do polegar horizontal ao passar o mouse */
 }

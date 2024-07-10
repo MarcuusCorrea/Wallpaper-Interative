@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'; // Importa a biblioteca React
+import HomePage from './pages/HomePage/HomePage'; // Importa o componente HomePage
+import './App.css'; // Importa o arquivo de estilo para App
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import TelaFiltro from './pages/TelaFiltro/TelaFiltro';
 
 function App() {
+  const [getTituloFiltro, setTituloFiltro] = useState('');
+  const [getFiltro, setFiltro] = useState('');
+
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/home' element={
+            <HomePage 
+              getTitulo={getTituloFiltro} 
+              setTitulo={setTituloFiltro} 
+
+              getFiltro={getFiltro} 
+              setFiltro={setFiltro}
+            />
+          }/>
+          
+          <Route path='/tela-filtro' element={
+            <TelaFiltro 
+              getTitulo={getTituloFiltro} 
+              setTitulo={setTituloFiltro} 
+
+              getFiltro={getFiltro} 
+              setFiltro={setFiltro}
+            />} 
+          />
+
+          {/* <HomePage /> Renderiza o componente HomePage */}
+        </Routes>
+      </BrowserRouter>
     </div>
   );
-}
+};
 
-export default App;
+export default App; // Exporta o componente App

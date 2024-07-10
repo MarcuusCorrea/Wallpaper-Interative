@@ -1,0 +1,43 @@
+.home-page {
+  margin: 0px; padding: 0px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  overflow-x: hidden;
+}
+
+.carousel-container {
+  margin-bottom: 20px; 
+}
+
+.filters {
+  margin-bottom: 20px; 
+}
+
+.filters select {
+  padding: 5px; 
+}
+
+.container-header {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  height: auto;
+  margin-top: 10px;
+}
+
+.container-carousel {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-gallery {
+  display: flex;
+  height: 100%;
+  width:100%;
+}

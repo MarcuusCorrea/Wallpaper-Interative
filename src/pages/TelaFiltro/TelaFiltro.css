@@ -1,0 +1,132 @@
+.container-filter {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.container-options {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.op-filter {
+    display: flex;
+    padding: 5px;
+
+    width: 150px;
+    background-color: white;
+    border-radius: 5px;
+    color: #111111;
+
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+
+    transition: background 0.2s ease-in-out;
+}
+
+.op-filter:hover {
+    cursor: pointer;
+    background-color: #AAAAAA;
+}
+
+.container-filtered-items {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    height: 80vh;
+
+    align-items: center ;
+    justify-content: flex-start;
+
+    padding: 5px;
+    background-color: #333;
+
+    border-radius: 5px;
+}
+
+.container-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #111111;
+
+    border-radius: 2px;
+
+    background-color: #00FFD7;
+}
+
+.container-item {
+    display: flex;
+    flex-direction: row;
+
+    padding: 8px;
+    margin:8px;
+
+    border-radius: 5px;
+
+    width: 250px;
+    height: 150px;
+
+    background-color: #434343;
+}
+
+.container-item-image {
+    display: flex;
+    width: 50%;
+}
+
+.container-description {
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;
+    height: 100%;
+}
+
+.container-all-items {
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+    overflow-y:scroll;
+}
+
+.btn-download {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: #00FFD7;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #00FFD7;
+
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.btn-download:hover {
+    cursor: pointer;
+    color: #111111;
+    background-color: #00FFD7;
+}

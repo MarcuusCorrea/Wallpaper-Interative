@@ -1,0 +1,43 @@
+.wallpaper-list {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+}
+
+.wallpaper-item {
+  flex: 1 0 21%; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px; 
+  overflow: hidden; 
+  background: #fff; 
+}
+
+.wallpaper-item img {
+  width: 100%; 
+  height: auto; 
+}
+
+.wallpaper-info {
+  padding: 10px; 
+}
+
+.wallpaper-info h3 {
+  margin: 0 0 10px;
+}
+
+.wallpaper-info p {
+  margin: 0 0 10px; 
+}
+
+.wallpaper-info button {
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  padding: 10px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+}
+
+.wallpaper-info button:hover {
+  background-color: #0056b3; 
+}
