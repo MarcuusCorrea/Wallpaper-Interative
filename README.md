@@ -45,7 +45,7 @@ Antes de começar, certifique-se de ter o Node.js e npm e yarn instalados em sua
     ```
     http://localhost:3000
     ```
-   - O projeto está feito por rotas, nesse caso colocará: http://localhost:300/home
+   - O projeto está feito por rotas, nesse caso colocará: http://localhost:3000/home
 
 ## Estrutura do Projeto
 
